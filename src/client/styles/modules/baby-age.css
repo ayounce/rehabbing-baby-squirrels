@@ -1,0 +1,31 @@
+.baby-age {
+	border-bottom: 1px solid lightgrey;
+	padding: 20px 0 30px;
+}
+
+.baby-age:first-of-type {
+	border-top: 1px solid lightgrey;
+}
+
+.baby-age h3 {
+	background-image: url('/images/munchie.gif');
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 25px;
+}
+
+.baby-age ul {
+	float: left;
+}
+
+.baby-age img {
+	float: right;
+	width: 40%;
+}
+
+@media screen and (min-width: 1200px) {
+	.baby-age img {
+		width: 25%;
+	}
+}
+

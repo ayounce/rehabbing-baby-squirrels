@@ -1,0 +1,18 @@
+# root folders
+# ============
+/artifacts/
+/src/
+/scripts/bump/
+/scripts/pack-docs/
+
+# root dot files
+# ==============
+/.gitignore
+/.travis.yml
+
+# root files
+# ==========
+/bower.json
+/rapid-build.cson
+/README.md
+/CHANGELOG.md

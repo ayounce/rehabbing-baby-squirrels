@@ -1,0 +1,27 @@
+/*http://nicolasgallagher.com/micro-clearfix-hack/*/
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+    display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+.clear-left {
+	clear: left;
+}
+
+.clear-right {
+	clear: right;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+

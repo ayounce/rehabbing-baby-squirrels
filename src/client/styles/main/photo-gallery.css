@@ -1,0 +1,43 @@
+.photo-gallery {
+	list-style: none;
+	padding: 0;
+	margin-left: -12px;
+}
+
+.photo-gallery li {
+	position: relative;
+	height: 200px;
+	display: inline-block;
+	margin: 0 0 12px 12px;
+	padding: 9px 8px 15px;
+	border-radius: 3%;
+	border: 1px solid #bbb;
+	background-color: linen;
+}
+
+.photo-gallery img {
+	height: 100%;
+	padding: 2px;
+	border-radius: 3%;
+	border: 1px solid #999;
+	background-color: #eee;
+}
+
+.photo-gallery li img:last-child {
+	display: none;
+	position: absolute;
+	top:  -20%;
+	left: -20%;
+	z-index: 1;
+}
+
+.photo-gallery img:first-child:hover + img,
+.photo-gallery li img:last-child:hover {
+	display: block;
+	height: 140%;
+}
+
+.photo-gallery li img:last-child:active {
+	height: 250%;
+	top: -100%;
+}

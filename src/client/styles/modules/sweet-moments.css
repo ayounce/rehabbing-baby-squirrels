@@ -1,0 +1,25 @@
+.module.sweet-moments .main img,
+.module.sweet-moments .main video,
+.module.sweet-moments .main .video {
+	width: 98%;
+}
+
+.module.sweet-moments .main .video {
+	height: 315px;
+}
+
+.module.sweet-moments .main hr {
+	border: 0;
+	border-top: 1px dotted #bbb;
+	margin-bottom: 13px;
+}
+
+.module.sweet-moments h3 {
+	text-align: center;
+}
+
+@media screen and (min-width: 1500px) {
+	.module.sweet-moments h3 {
+		font-size: 200%;
+	}
+}

@@ -1,0 +1,6 @@
+img.primary,
+video.primary,
+.video.primary {
+	border-radius: 3%;
+	border: 1px solid lightgrey;
+}

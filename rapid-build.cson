@@ -1,0 +1,38 @@
+# rapid-build.cson
+# ================
+# common options for all build types
+common:
+	spa:
+		src:
+			filePath: 'spa.html'
+	minify:
+		spa:
+			file: false
+		css:
+			splitMinFile: false
+	exclude:
+		from:
+			dist:
+				client: [
+					'bower_components/font-awesome/less/**'
+					'bower_components/font-awesome/scss/**'
+				]
+	extra:
+		copy:
+			client: [
+				'videos/*'
+				'bower_components/font-awesome/fonts/**'
+			]
+dev:
+	extra:
+		copy:
+			client: [
+				'bower_components/font-awesome/css/font-awesome.css'
+			]
+
+prod:
+	extra:
+		copy:
+			client: [
+				'bower_components/font-awesome/css/font-awesome.min.css'
+			]

@@ -1,0 +1,13 @@
+.main-header {
+	position: relative;
+	min-height: 250px;
+	border-bottom: 8px solid #b3d483;
+	background: url('/images/jumbotron.jpg') 25% 30% no-repeat;
+	background-size: cover;
+}
+
+.main-header nav {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}

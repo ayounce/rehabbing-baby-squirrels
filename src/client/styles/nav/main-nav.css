@@ -1,0 +1,57 @@
+.main-nav a {
+	display: inline-block;
+	padding: 8px 14px;
+	text-decoration: none;
+	border: 1px solid #b3d483;
+	border-radius: 10px 10px 0 0;
+	border-bottom: none;
+	background-color: #8cba49;
+	color: white;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-shadow: 1px 1px #666;
+}
+
+.main-nav .active,
+.main-nav a:focus {
+	outline: none;
+	border-color: pink;
+	background-color: plum;
+}
+
+.main-nav .navicon {
+	display: none;
+}
+
+@media screen and (max-width: 825px) {
+	.main-header nav {
+		top: 5px;
+	}
+
+	.main-nav a {
+		display: none;
+		border-radius: 0;
+	}
+
+	.main-nav a:nth-child(2) {
+		clear: right;
+		border-radius: 10px 0 0 0;
+	}
+
+	.main-nav .navicon {
+		float: right;
+		display: inline-block;
+		cursor: pointer;
+		border-radius: 10px;
+		border-bottom: 1px solid #b3d483;
+	}
+
+	.main-nav .navicon.active ~ a {
+		display: block;
+	}
+
+	.main-nav .navicon.active {
+		border-bottom: none;
+		border-radius: 10px 10px 0 0;
+	}
+}

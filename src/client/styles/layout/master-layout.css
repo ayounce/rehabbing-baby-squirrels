@@ -1,0 +1,18 @@
+main {
+	float: left;
+	width: 65%;
+	padding: 2% 4% 2% 3%;
+}
+
+.main-aside {
+	float: right;
+	width: 22.5%;
+	padding: 3% 2% 2% 2%;
+	border: 1px solid lightgrey;
+	border-top: none;
+}
+
+main,
+.main-aside {
+	margin-bottom: 10%;
+}
