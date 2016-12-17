@@ -41,13 +41,22 @@
 	.main-nav .navicon {
 		float: right;
 		display: inline-block;
+		color: black;
+		background-color: linen;
 		cursor: pointer;
 		border-radius: 10px;
-		border-bottom: 1px solid #b3d483;
+		border: 1px solid grey;
 	}
 
 	.main-nav .navicon.active ~ a {
 		display: block;
+	}
+
+	.main-nav .navicon.active,
+	.main-nav .navicon:focus {
+		color: white;
+		background-color: plum;
+		border-color: pink;
 	}
 
 	.main-nav .navicon.active {
