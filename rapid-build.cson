@@ -20,7 +20,6 @@ common:
 	extra:
 		copy:
 			client: [
-				'videos/*'
 				'bower_components/font-awesome/fonts/**'
 			]
 dev:
@@ -36,3 +35,8 @@ prod:
 			client: [
 				'bower_components/font-awesome/css/font-awesome.min.css'
 			]
+
+pack:
+	dist:
+		pack:
+			enable: true

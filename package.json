@@ -13,16 +13,13 @@
     "url": "https://github.com/ayounce/rehabbing-baby-squirrels"
   },
   "engines": {
-    "node": "4.4.2"
+    "node": "6.11.0"
   },
   "scripts": {
+    "pack-app": "rapid-build prod pack",
     "start": "node server/rapid-build/start-server",
     "stop": "node server/rapid-build/stop-server",
-    "pack-app": "node scripts/pack-docs",
     "heroku-postbuild": "node scripts/postinstall"
-  },
-  "devDependencies": {
-    "zip-dir": "1.0.2"
   },
   "dependencies": {
     "asyncawait": "1.0.3",
